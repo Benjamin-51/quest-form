@@ -64,11 +64,6 @@
                 echo "<p>$error</p>";
             }
         }
-
-        echo("<" . $userName . "> <" . $userLastName . "></br>");
-        echo(var_dump($_POST));
-        echo(var_dump($listErrors));
-
     ?>
 </body>
 </html>
